@@ -17,8 +17,7 @@ import BasketSlider from "./components/BasketSlider";
 import Footer from "./components/Footer";
 
 // API Key for the Cat API
-const apiKey =
-  "live_WsdZaAcnisLiWqYkDONH329FCuNncM9Ghti7CBiUWgKGWW92FJN2rKOe4vFct8bw";
+const apiKey = import.meta.env.VITE_APP_API_KEY
 
 export default function App() {
   // Toast notification functions
